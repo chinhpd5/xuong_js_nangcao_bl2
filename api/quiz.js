@@ -13,3 +13,23 @@ export const addQuiz = async(data)=>{
         alert("Lỗi")
     }
 }
+
+export const getAllQuiz = async ()=>{
+    try {
+        const res = await fetch('http://localhost:3000/quizs');
+        const data = await res.json();
+        return data
+    } catch (error) {
+        alert("Lỗi")
+    }
+}
+
+export const getQuizById = async (id)=>{
+    try {
+        const res = await fetch(`http://localhost:3000/quizs/${id}`);
+        const data = await res.json();
+        return data
+    } catch (error) {
+        alert("Lỗi")
+    }
+}

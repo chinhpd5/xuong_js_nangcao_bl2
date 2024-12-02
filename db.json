@@ -28,7 +28,14 @@
   "quizs": [
     {
       "id": "abcd",
-      "title": "Quiz 1",
+      "title": "Bài trắc nghiệm 01",
+      "isActive": true,
+      "time": 90,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quisquam nesciunt aliquam"
+    },
+    {
+      "id": "abce",
+      "title": "Bài trắc nghiệm 02",
       "isActive": true,
       "time": 90,
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quisquam nesciunt aliquam"
@@ -302,6 +309,33 @@
         }
       ],
       "quizId": "abcd",
+      "type": 1,
+      "correctAnser": [
+        "1"
+      ]
+    },
+    {
+      "id": "aa11",
+      "questionTiltle": "Ngọn núi cao nhất Việt Nam",
+      "answers": [
+        {
+          "id": "1",
+          "answerTitle": "Phanxipang"
+        },
+        {
+          "id": "2",
+          "answerTitle": "Tà Chì Nhù"
+        },
+        {
+          "id": "3",
+          "answerTitle": "Putaleng"
+        },
+        {
+          "id": "4",
+          "answerTitle": "Bạch Mộc Lương Tử"
+        }
+      ],
+      "quizId": "abce",
       "type": 1,
       "correctAnser": [
         "1"
